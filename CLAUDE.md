@@ -29,4 +29,3 @@ Everything is dense numpy matrices, recomputed each run (no cached artifacts):
 - `nearest_neighbours` maps sorted similarity values back to the first item with that value, so ties pick the same item repeatedly. Changing this changes the MAE figures.
 - `GENRE_COLUMNS` uses 14 of the 19 genres.
 - Predictions are not clipped to 1–5.
-- `dataTraining*.csv` / `dataTest*.csv` are legacy outputs of the old scripts, unused by the code; `dataTest4.csv` was built from `u1.test` by mistake.
